@@ -3,8 +3,6 @@
 import glob
 import pickle
 import numpy
-import plaidml.keras
-plaidml.keras.install_backend()
 from music21 import converter, instrument, note, chord
 from keras.models import Sequential
 from keras.layers import Dense
